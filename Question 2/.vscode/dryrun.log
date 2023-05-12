@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/dilankaseneviratne/Documents/Curtin/Year 2 Semester 1/COMP 2006/Assignment 1/Submission/Question 2'
+gcc -g -pthread simulator2.c -c
+gcc -g -pthread menus.c -c
+gcc -g -pthread fileReader.c -c
+gcc -g -pthread algorithms.c -c
+gcc -g -pthread simulator2.o menus.o fileReader.o algorithms.o -o diskScheduler
+make: Leaving directory `/Users/dilankaseneviratne/Documents/Curtin/Year 2 Semester 1/COMP 2006/Assignment 1/Submission/Question 2'
+ 
